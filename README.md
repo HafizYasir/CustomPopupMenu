@@ -1,6 +1,21 @@
 # Custom Popup Menu
 > A customized library module that utilizes the ```android.widget.PopupWindow``` class coupled with ```android.widget.LinearLayout``` to display a beautiful, modern, and intuitive popup menu with icons.
 ## Usage
+### Implementation into an Android Studio Project
+Add the following lines into your build.gradle file
+```allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Now implement this project using 
+```dependencies {
+	        implementation 'com.github.HafizYasir:CustomPopupMenu:Tag'
+	}
+```
+
 ### Basic Usage
 A demo app is provided in this repository. You can take a look at it.
 
