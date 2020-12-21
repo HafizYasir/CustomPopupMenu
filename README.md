@@ -17,6 +17,7 @@ dependencies {
 	        implementation 'com.github.HafizYasir:CustomPopupMenu:Tag'
 	}
 ```
+Replace ```Tag``` with the latest available version. Example: ``` implementation 'com.github.HafizYasir:CustomPopupMenu:v1.0.0' ```
 
 ### Basic Usage
 A demo app is provided in this repository. You can take a look at it.
