@@ -5,7 +5,7 @@
 A demo app is provided in this repository. You can take a look at it.
 
 The Custom Popup Menu utilizes the Builder Pattern and you can use the ```CustomPopupMenu.MenuBuilder``` class to create an instance. Doing so requires the following values:
-- A ```Context``` instance to create the menu with
+- A ```Context``` instance to create the menu with.
 - A ```View``` to anchor the popup menu with, along with three ```int``` values for ```xOffset```, ```yOffset```, and ```gravity```. The last of these can be obtained from the ```android.View.Gravity``` class.
 - An interface instance of type ```CustomPopupMenu.IMenuItemClickListener``` used to pass click events. The parameter ```int id``` of the interface method ```menuItemClicked``` contains the menu item id you have declared in your ```R.menu.``` exampleMenu file.
 - In the ```CustomPopupMenu.MenuBuilder.setMenuResources(Integer... menuResources)``` method, pass in the menu resources declared using xml in your ```R.menu``` file. Multiple menu files can be passed by separating with commas and when the menu is shown, items of each file will be separated using a horizontal line.
