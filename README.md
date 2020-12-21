@@ -3,7 +3,8 @@
 ## Usage
 ### Implementation into an Android Studio Project
 Add the following lines into your build.gradle file
-```allprojects {
+```
+allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
@@ -11,7 +12,8 @@ Add the following lines into your build.gradle file
 	}
 ```
 Now implement this project using 
-```dependencies {
+```
+dependencies {
 	        implementation 'com.github.HafizYasir:CustomPopupMenu:Tag'
 	}
 ```
