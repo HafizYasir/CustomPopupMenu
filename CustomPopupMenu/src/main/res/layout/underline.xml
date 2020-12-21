@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/cpm_headerUnderline"
+    android:id="@+id/cpm_add_underline"
+    android:layout_width="match_parent"
+    />

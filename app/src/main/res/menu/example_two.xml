@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="Some Other item"
+        android:icon="@drawable/ic_fluent_arrow_left_24_regular"
+        android:id="@+id/someOther"/>
+
+    <item
+        android:title="More"
+        android:icon="@drawable/ic_fluent_more_vertical_24_regular"
+        android:id="@+id/more"/>
+
+</menu>

@@ -1,0 +1,3 @@
+include ':CustomPopupMenu'
+include ':app'
+rootProject.name = "CustomPopupMenuDemo"

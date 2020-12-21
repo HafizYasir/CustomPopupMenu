@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Custom Popup Menu Demo</string>
+    <string name="show_menu">Show Menu</string>
+</resources>

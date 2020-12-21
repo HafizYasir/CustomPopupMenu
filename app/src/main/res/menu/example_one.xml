@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Example item"
+        android:icon="@drawable/ic_fluent_clock_20_regular"
+        android:id="@+id/clock" />
+
+
+    <item android:id="@id/cpm_add_underline"
+        android:title="add nothing here"/>
+
+    <item
+        android:title="Another example item"
+        android:icon="@drawable/ic_fluent_sunny_high_20_regular"
+        android:id="@+id/weather">
+        <menu>
+            <item
+                android:title="Sub-item"
+                android:icon="@drawable/ic_fluent_settings_24_regular"
+                android:id="@+id/settings"/>
+        </menu>
+    </item>
+
+
+</menu>
